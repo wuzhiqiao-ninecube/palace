@@ -60,7 +60,7 @@ ExternalProject_Add(mumps
   INSTALL_DIR       ${CMAKE_INSTALL_PREFIX}
   PREFIX            ${CMAKE_BINARY_DIR}/extern/mumps-cmake
   UPDATE_COMMAND    ""
-  PATCH_COMMAND     git apply "${MUMPS_PATCH_FILES}"
+#  PATCH_COMMAND     git apply "${MUMPS_PATCH_FILES}"
   CONFIGURE_COMMAND ${CMAKE_COMMAND} <SOURCE_DIR> "${MUMPS_OPTIONS}"
   TEST_COMMAND      ""
 )

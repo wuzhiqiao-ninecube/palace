@@ -12,7 +12,7 @@ set(__extern_git_tags YES)
 
 # ARPACK-NG
 set(EXTERN_ARPACK_URL
-  "https://github.com/opencollab/arpack-ng.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/arpack-ng.git" CACHE STRING
   "URL for external ARPACK-NG build"
 )
 set(EXTERN_ARPACK_GIT_BRANCH
@@ -26,7 +26,7 @@ set(EXTERN_ARPACK_GIT_TAG
 
 # ButterflyPACK (for STRUMPACK)
 set(EXTERN_BUTTERFLYPACK_URL
-  "https://github.com/liuyangzhuan/ButterflyPACK.git" CACHE STRING
+  "https://gitlab.com/liuyangzhuan/ButterflyPACK.git" CACHE STRING
   "URL for external ButterflyPACK build"
 )
 set(EXTERN_BUTTERFLYPACK_GIT_BRANCH
@@ -40,7 +40,7 @@ set(EXTERN_BUTTERFLYPACK_GIT_TAG
 
 # GSLIB
 set(EXTERN_GSLIB_URL
-  "https://github.com/Nek5000/gslib.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/gslib.git" CACHE STRING
   "URL for external GSLIB build"
 )
 set(EXTERN_GSLIB_GIT_BRANCH
@@ -54,7 +54,7 @@ set(EXTERN_GSLIB_GIT_TAG
 
 # HYPRE (for MFEM)
 set(EXTERN_HYPRE_URL
-  "https://github.com/hypre-space/hypre.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/hypre.git" CACHE STRING
   "URL for external HYPRE build"
 )
 set(EXTERN_HYPRE_GIT_BRANCH
@@ -82,7 +82,7 @@ set(EXTERN_LIBCEED_GIT_TAG
 
 # LIBXSMM (for libCEED)
 set(EXTERN_LIBXSMM_URL
-  "https://github.com/hfp/libxsmm.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/libxsmm.git" CACHE STRING
   "URL for external LIBXSMM build"
 )
 set(EXTERN_LIBXSMM_GIT_BRANCH
@@ -110,7 +110,7 @@ set(EXTERN_MAGMA_GIT_TAG
 
 # METIS
 set(EXTERN_METIS_URL
-  "https://bitbucket.org/petsc/pkg-metis.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/pkg-metis.git" CACHE STRING
   "URL for external METIS build"
 )
 set(EXTERN_METIS_GIT_BRANCH
@@ -124,7 +124,7 @@ set(EXTERN_METIS_GIT_TAG
 
 # MFEM
 set(EXTERN_MFEM_URL
-  "https://github.com/mfem/mfem.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/mfem.git" CACHE STRING
   "URL for external MFEM build"
 )
 set(EXTERN_MFEM_GIT_BRANCH
@@ -138,7 +138,7 @@ set(EXTERN_MFEM_GIT_TAG
 
 # MUMPS
 set(EXTERN_MUMPS_URL
-  "https://github.com/scivision/mumps.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/mumps.git" CACHE STRING
   "URL for external MUMPS build"
 )
 set(EXTERN_MUMPS_GIT_BRANCH
@@ -152,7 +152,7 @@ set(EXTERN_MUMPS_GIT_TAG
 
 # ParMETIS
 set(EXTERN_PARMETIS_URL
-  "https://bitbucket.org/petsc/pkg-parmetis.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/parmetis.git" CACHE STRING
   "URL for external ParMETIS build"
 )
 set(EXTERN_PARMETIS_GIT_BRANCH
@@ -166,7 +166,7 @@ set(EXTERN_PARMETIS_GIT_TAG
 
 # PETSc (for SLEPc)
 set(EXTERN_PETSC_URL
-  "https://gitlab.com/petsc/petsc.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/petsc.git" CACHE STRING
   "URL for external PETSc build"
 )
 set(EXTERN_PETSC_GIT_BRANCH
@@ -180,7 +180,7 @@ set(EXTERN_PETSC_GIT_TAG
 
 # ScaLAPACK (for STRUMPACK and MUMPS)
 set(EXTERN_SCALAPACK_URL
-  "https://github.com/Reference-ScaLAPACK/scalapack.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/scalapack.git" CACHE STRING
   "URL for external ScaLAPACK build"
 )
 set(EXTERN_SCALAPACK_GIT_BRANCH
@@ -194,7 +194,7 @@ set(EXTERN_SCALAPACK_GIT_TAG
 
 # SLEPc
 set(EXTERN_SLEPC_URL
-  "https://gitlab.com/slepc/slepc.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/slepc.git" CACHE STRING
   "URL for external SLEPc build"
 )
 set(EXTERN_SLEPC_GIT_BRANCH
@@ -208,7 +208,7 @@ set(EXTERN_SLEPC_GIT_TAG
 
 # STRUMPACK
 set(EXTERN_STRUMPACK_URL
-  "https://github.com/pghysels/STRUMPACK.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/strumpack.git" CACHE STRING
   "URL for external STRUMPACK build"
 )
 set(EXTERN_STRUMPACK_GIT_BRANCH
@@ -222,7 +222,7 @@ set(EXTERN_STRUMPACK_GIT_TAG
 
 # SuperLU_DIST
 set(EXTERN_SUPERLU_URL
-  "https://github.com/xiaoyeli/superlu_dist.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/superlu_dist.git" CACHE STRING
   "URL for external SuperLU_DIST build"
 )
 set(EXTERN_SUPERLU_GIT_BRANCH
@@ -236,7 +236,7 @@ set(EXTERN_SUPERLU_GIT_TAG
 
 # ZFP (for STRUMPACK)
 set(EXTERN_ZFP_URL
-  "https://github.com/LLNL/zfp.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/zfp.git" CACHE STRING
   "URL for external ZFP build"
 )
 set(EXTERN_ZFP_GIT_BRANCH
@@ -250,31 +250,31 @@ set(EXTERN_ZFP_GIT_TAG
 
 # nlohmann/json
 set(EXTERN_JSON_URL
-  "https://github.com/nlohmann/json/releases/download/v3.11.3/json.tar.xz" CACHE STRING
+  "${CMAKE_SOURCE_DIR}//thirdpart//json.tar.xz" CACHE STRING
   "URL for external nlohmann/json build"
 )
 
 # fmt
 set(EXTERN_FMT_URL
-  "https://github.com/fmtlib/fmt/releases/download/10.2.1/fmt-10.2.1.zip" CACHE STRING
+  "${CMAKE_SOURCE_DIR}//thirdpart//fmt-10.2.1.zip" CACHE STRING
   "URL for external fmt build"
 )
 
 # scn
 set(EXTERN_SCN_URL
-  "https://github.com/eliaskosunen/scnlib/archive/refs/tags/v4.0.1.zip" CACHE STRING
+  "${CMAKE_SOURCE_DIR}//thirdpart//scnlib-4.0.1.zip" CACHE STRING
   "URL for external scn build"
 )
 
 # Eigen
 set(EXTERN_EIGEN_URL
-  "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz" CACHE STRING
+  "${CMAKE_SOURCE_DIR}//thirdpart//eigen-3.4.0.tar.gz" CACHE STRING
   "URL for external Eigen build"
 )
 
 # SUNDIALS
 set(EXTERN_SUNDIALS_URL
-  "https://github.com/LLNL/sundials.git" CACHE STRING
+  "git@gitlab.ququan.com:wuzhiqiao/sundials.git" CACHE STRING
   "URL for external SUNDIALS build"
 )
 set(EXTERN_SUNDIALS_GIT_BRANCH

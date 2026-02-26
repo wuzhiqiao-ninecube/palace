@@ -63,7 +63,7 @@ ExternalProject_Add(arpack-ng
   INSTALL_DIR       ${CMAKE_INSTALL_PREFIX}
   PREFIX            ${CMAKE_BINARY_DIR}/extern/arpack-ng-cmake
   UPDATE_COMMAND    ""
-  PATCH_COMMAND     git apply "${ARPACK_PATCH_FILES}"
+#  PATCH_COMMAND     git apply "${ARPACK_PATCH_FILES}"
   CONFIGURE_COMMAND ${CMAKE_COMMAND} <SOURCE_DIR> "${ARPACK_OPTIONS}"
   TEST_COMMAND      ""
 )
