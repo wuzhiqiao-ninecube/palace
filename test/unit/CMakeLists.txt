@@ -9,7 +9,7 @@
 if(PALACE_BUILD_EXTERNAL_DEPS)
   Include(FetchContent)
   FetchContent_Declare(Catch2
-    GIT_REPOSITORY https://github.com/catchorg/Catch2.git
+    GIT_REPOSITORY git@gitlab.ququan.com:wuzhiqiao/catch2.git
     GIT_TAG        v3.8.1
   )
   FetchContent_MakeAvailable(Catch2)
