@@ -42,6 +42,8 @@ set(PALACE_WITH_STRUMPACK_ZFP OFF CACHE BOOL "Build with ZFP support for STRUMPA
 
 set(PALACE_WITH_SUNDIALS ON CACHE BOOL "Build with SUNDIALS differential/algebraic equations solver")
 
+set(PALACE_WITH_GMSHSDK OFF CACHE BOOL "Build with Gmsh SDK support")
+
 set(ANALYZE_SOURCES_CLANG_TIDY OFF CACHE BOOL "Run static analysis checks using clang-tidy")
 set(ANALYZE_SOURCES_CPPCHECK OFF CACHE BOOL "Run static analysis checks using cppcheck")
 
@@ -210,6 +212,12 @@ endif()
 include(ExternalGitTags)
 if(PALACE_BUILD_EXTERNAL_DEPS)
   add_subdirectory("extern")
+endif()
+
+# Add Gmsh SDK
+if(PALACE_WITH_GMSHSDK)
+  message(STATUS "====================== Configuring Gmsh SDK dependency =====================")
+  include(ExternalGmshsdk)
 endif()
 
 # Add MFEM (always built as part of Palace)
